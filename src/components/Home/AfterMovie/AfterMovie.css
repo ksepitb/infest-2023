@@ -1,0 +1,22 @@
+.after-movie {
+    width: 100%;
+    height: 100vh;
+    background-color: #0D1A2D;
+
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.after-movie .video {
+    width: 80%;
+    height: 80%;
+    background-color: white;
+    margin-bottom: 2rem;
+}
+
+.after-movie p {
+    border-bottom: 1px solid white;
+}

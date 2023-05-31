@@ -1,0 +1,69 @@
+.bcc-about {
+    height: 65vh;
+    padding: 5rem;
+    background-image: url(../../../assets/background/2.png);
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bcc-about h1 {
+    background-image: linear-gradient(to left,#5B7EE8, #22D7DB);
+    background-clip: text; 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Pragmatica-bold;
+    font-size: 3rem;
+}
+
+.bcc-about p {
+    color: white;
+    margin-top: 2rem;
+    width: 75%;
+    text-align: justify;
+    font-size: 1.25rem;
+    line-height: 2rem;
+}
+
+.bcc-about .tentang-bcc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bcc-about span {
+    background-image: linear-gradient(to left,#5B7EE8, #22D7DB);
+    background-clip: text; 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Pragmatica-bold;
+}
+
+@media screen and (max-width: 840px) {
+    .bcc-about h1 {
+        font-size: 2.5rem;
+    }
+
+    .bcc-about p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .bcc-about {
+        padding: 5rem 2rem;
+    }
+
+    .bcc-about h1 {
+        font-size: 1.5rem
+    }
+
+    .bcc-about p {
+        font-size: 0.8rem;
+        line-height: 1.25rem;
+    }
+}

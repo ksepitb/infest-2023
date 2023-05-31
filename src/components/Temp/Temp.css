@@ -1,0 +1,75 @@
+.temp {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1B1B20;
+    transition: all 0.5s ease;
+    min-width: 320px;
+}
+
+.temp h1 {
+    font-size: 7.5rem;
+    background-image: linear-gradient(to left,#5B7EE8, #22D7DB);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    animation: slide-up 2s ease-out forwards;
+    font-family: Pragmatica-bold;
+}
+
+
+.temp h3 {
+    font-size: 2.5rem;
+    color: white;
+    animation: slide-up 2.5s ease-out forwards;
+    background: transparent;
+    font-family: Pragmatica-bold;
+}
+
+.temp .countdown {
+  font-size: 3rem;
+  color: white;
+  margin-top: 2rem;
+  animation: slide-up 3s ease-out forwards;
+}
+
+@keyframes slide-up {
+    0% {
+      opacity: 0;
+      transform: translateY(100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+/* ===== MEDIA QUERIES ===== */
+@media screen and (max-width: 840px) {
+  .temp h1 {
+    text-align: center;
+    font-size: 6rem;
+  }
+
+  .temp h3 {
+    font-size: 3rem;
+  }
+
+  .temp .countdown {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 685px) {
+  .temp h1 {
+    font-size: 4rem;
+  }
+
+  .temp h3 {
+    font-size: 2rem;
+  }
+}

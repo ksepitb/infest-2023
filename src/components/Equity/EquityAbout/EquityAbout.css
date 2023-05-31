@@ -1,0 +1,68 @@
+.equity-about {
+    height: 65vh;
+    padding: 5rem;
+    background-image: url(../../../assets/background/3.png);
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.equity-about span {
+    background-image: linear-gradient(to left,#5B7EE8, #22D7DB);
+    background-clip: text; 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Pragmatica-bold;
+}
+
+.equity-about h1 {
+    background-image: linear-gradient(to left,#5B7EE8, #22D7DB);
+    background-clip: text; 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Pragmatica-bold;
+    font-size: 3rem;
+}
+
+.equity-about p {
+    color: white;
+    margin-top: 2rem;
+    width: 75%;
+    text-align: justify;
+    font-size: 1.25rem;
+    line-height: 2rem;
+}
+
+.equity-about .tentang-equity {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 840px) {
+    .equity-about h1 {
+        font-size: 2rem;
+    }
+
+    .equity-about p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .equity-about {
+        padding: 5rem 1rem;
+    }
+
+    .equity-about h1 {
+        font-size: 1.5rem;
+    }
+
+    .equity-about p {
+        font-size: 0.8rem;
+        line-height: 1.25rem;
+    }
+}
