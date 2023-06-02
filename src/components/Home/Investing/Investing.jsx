@@ -23,7 +23,7 @@ const Investing = () => {
                 risiko untuk collapse. Kejadian itu memicu sebuah pertanyaan, apakah sudah saatnya investor Indonesia memberikan dana 
                 kepada sektor lain selain perbankan dan apa sektor yang masih berpotensi di masa depan?
             </p>
-            <button>Registrasi</button>
+            <button className='text-[30px]'>Registrasi</button>
         </div>
     </div>
   )

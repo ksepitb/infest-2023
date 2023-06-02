@@ -1,11 +1,11 @@
 @font-face {
     font-family: Pragmatica;
-    src:url(../Fonts/Pragmatica-Book.ttf)
+    /* src:url(../Fonts/Pragmatica-Book.ttf) */
 }
 
 @font-face {
     font-family: Pragmatica-bold;
-    src:url(../Fonts/Pragmatica-Bold.ttf)
+    /* src:url(../Fonts/Pragmatica-Bold.ttf) */
 }
 
 * {
