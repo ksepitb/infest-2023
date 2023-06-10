@@ -1,26 +1,25 @@
 import React from 'react'
-
-// import Components
-import Banner from '../components/Home/Banner/Banner'
-import AfterMovie from '../components/Home/AfterMovie/AfterMovie'
-import InfestMain from '../components/Home/InfestMain/InfestMain'
-import Start from '../components/Home/Start/Start'
-import Investing from '../components/Home/Investing/Investing'
-import Event from '../components/Home/Event/Event'
-import Timeline from '../components/Home/Timeline/Timeline'
-import FAQ from '../components/Home/FAQ/FAQ'
+// import components from home
+import HomeBanner from '../components/Home/HomeBanner'
+import AfterMovie from '../components/Home/AfterMovie'
+import WhatIs from '../components/Home/WhatIs'
+import Promotion from '../components/Home/Promotion'
+import InfestTheme from '../components/Home/InfestTheme'
+import AcaraKami from '../components/Home/AcaraKami'
+import InfestTimeline from '../components/Home/InfestTimeline'
+import HomeFaq from '../components/Home/HomeFaq'
 
 const Home = () => {
   return (
-    <div>
-      <Banner />
+    <div className='overflow-x-hidden'>
+      <HomeBanner />
       <AfterMovie />
-      <InfestMain />
-      <Start />
-      <Investing />
-      <Event />
-      <Timeline />
-      <FAQ />
+      <WhatIs />
+      <Promotion />
+      <InfestTheme />
+      <AcaraKami />
+      <InfestTimeline />
+      <HomeFaq />
     </div>
   )
 }
